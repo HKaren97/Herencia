@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Herencia de Estilos - Página Completa</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Estilos de css</h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#Cascada">Cascada</a></li>
+                <li><a href="#Especifidad">#Especifidad</a></li>
+                <li><a href="#Herencia">Herencia</a></li>
+            </ul>
+        </nav>
+        
+        <section id="#Cascada">
+            <h2>Cascada</h2>
+            <p>En un primer nivel de simplicidad, la cascada en las hojas de estilo significa que el orden de las reglas importa en CSS: cuando dos reglas tienen la misma especificidad, se aplica la que aparece en último lugar en el CSS.</p>
+        </section>
+        
+        <section id="#Especifidad">
+            <h2>Especifidad</h2>
+            <p>La especificidad es el modo que tiene el navegador de decidir qué regla se aplica si diversas reglas tienen selectores diferentes pero podrían aplicarse a un mismo elemento. Básicamente, la especificidad mide cuán específica es la selección de un selector</p>
+            <p id="rojo">Un selector de elemento es menos específico (selecciona todos los elementos de aquel tipo que aparecen en la página) por lo que presenta una puntuación más baja en especificidad.</p>
+            <p id="rojo">Un selector de clase es más específico (selecciona solo los elementos de una página que tienen un valor de atributo class dado), y por tanto recibe una puntuación mayor.</p>
+        </section>
+        
+        <section id="#Herencia">
+            <h2>Herencia</h2>
+            <p>La herencia también debe entenderse en este contexto: algunos valores de las propiedades CSS que se han establecido para los elementos padre los heredan los elementos hijo, pero otros no.</p>
+        </section>
+
+    </div>
+</body>
+</html>
